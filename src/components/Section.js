@@ -7,6 +7,7 @@ function Section() {
         <Wrap>
           <ItemText>
               <h1> Lloyds Banking </h1>
+              <br/>
               <p> Llyods Bank have a range of insurance products & policies to offer you protection should unforeseen events occur.
                   <br/>
               We are here to protect the things that matter to you.</p>
@@ -44,6 +45,7 @@ align-items: center; // horizontal
 const ItemText = styled.div `
 padding-top: 15vh;
 text-align: centre;
+color: white;
 `
 
 const ButtonG = styled.div `
@@ -77,6 +79,7 @@ color: black;
 const Down = styled.img `
 height: 40px;
 overflow-x: hidden;
+animation: animateDown infinite 1.5s;
 `
 
 const Buttons = styled.div `

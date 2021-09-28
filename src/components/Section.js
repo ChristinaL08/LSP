@@ -77,7 +77,7 @@ color: black;
 `
 
 const Down = styled.img`
-height: 40px;
+height: 50px;
 overflow-x: hidden;
 animation: animateDown infinite 1.5s;
 `

@@ -6,24 +6,30 @@ function Home() {
         <Container>
 
             <Section title='Lloyds Banking' description='Llyods Bank have a range of insurance products & policies to offer you protection should unforeseen events occur.  We are here to protect the things that matter to you.'
-                backgroundImg='g.jpg'
+                backgroundImg='dc.jpg'
                 lBtnText='Get a quote'
                 rBtnText='Find out more'
             />
 
-            <Section title='Health Insurance' description='Llyods Bank have a range of insurance products & policies to offer you protection should unforeseen events occur.  We are here to protect the things that matter to you.'
+            <Section title='Health Insurance' description='some text'
                 backgroundImg='om.jpg'
                 lBtnText='Get a quote'
                 rBtnText='Find out more'
-                />
+            />
+
+            <Section title='Critical Health Insurance' description='some text'
+                backgroundImg='hc.jpg'
+                lBtnText='Get a quote'
+                rBtnText='Find out more'
+            />
 
 
         </Container>
-            )
+    )
 }
 
-            export default Home
+export default Home
 
-            const Container = styled.div`
+const Container = styled.div`
             height: 100vh;
             `

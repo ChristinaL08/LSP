@@ -20,6 +20,7 @@ function Section() {
                      Find out more
                   </RButton>
               </ButtonG>
+              <Down src="/images/down.svg"/>
               </Buttons>
         </Wrap>
     )
@@ -72,5 +73,11 @@ background-color: white;
 opacity: 0.65;
 color: black;
 `
+
+const Down = styled.img `
+height: 40px;
+overflow-x: hidden;
+`
+
 const Buttons = styled.div `
 `

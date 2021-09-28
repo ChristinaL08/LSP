@@ -7,7 +7,8 @@ function Section({ title, description, backgroundImg, lBtnText, rBtnText }) {
         <Wrap bgImage={backgroundImg}>
             <ItemText>
                 <h1> {title} </h1>
-                <p> {description}</p>
+                <br/>
+                <p> {description} </p>
             </ItemText>
             <Buttons>
                 <ButtonG>
@@ -41,9 +42,10 @@ background-image: ${props => `url("/images/${props.bgImage}")`}
 `
 
 const ItemText = styled.div`
-padding-top: 15vh;
+padding-top: 10vh;
 text-align: centre;
 color: white;
+width: 1000px;
 `
 
 const ButtonG = styled.div`

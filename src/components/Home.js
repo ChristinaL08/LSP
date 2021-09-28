@@ -5,7 +5,7 @@ function Home() {
     return (
         <Container>
 
-            <Section title='Lloyds Banking' description='Llyods Bank have a range of insurance products & policies to offer you protection should unforeseen events occur.  We are here to protect the things that matter to you.'
+            <Section title='Lloyds Banking' description='Llyods Bank have a range of insurance products & policies that offer protection should unforeseen events occur. These policies protect the things that matter to us. Lloyds life insurance policies are underwritten by Scottish Widows. Scottish widows became a part of  Lloyds Banking Group in January 2009 and have over 200 years experience protecting what matters most.'
                 backgroundImg='dc.jpg'
                 lBtnText='Get a quote'
                 rBtnText='Find out more'

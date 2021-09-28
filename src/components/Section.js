@@ -33,7 +33,7 @@ height: 100vh;
 background-size: cover;
 background-position: centre;
 background-repeat: no-repeat;
-background-image: url('/images/dc.jpg');
+background-image: url('/images/g.jpg');
 display: flex;
 flex-direction: column;
 justify-content: space-between; // vertical

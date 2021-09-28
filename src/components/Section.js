@@ -64,16 +64,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 100px;
-opacity: 0.85;
+opacity: 0.65;
 text-transform: uppercase;
 font-size: 14px;
 cursor: pointer;
 margin: 8px;
 `
 const RButton = styled(LButton)`
-background-color: white;
-opacity: 0.65;
-color: black;
 `
 
 const Down = styled.img`
